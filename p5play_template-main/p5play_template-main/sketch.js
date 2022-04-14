@@ -9,22 +9,22 @@ function setup() {
 function draw() 
 {
   background(30);
-
+background("black");
 if (keyIsDown(UP_ARROW)){
-
-  quadrado.position.y=quadrado.position.y-2;
+quadrado.shapeColor="orange"
+background("red");
 }
 if (keyIsDown(DOWN_ARROW)){
-
-  quadrado.position.y=quadrado.position.y+2;
+background("yellow");
+quadrado.shapeColor="purple"
 }
 if (keyIsDown(LEFT_ARROW)){
-
-  quadrado.position.x=quadrado.position.x-2;
+background("green");
+quadrado.shapeColor="red"
 }
 if (keyIsDown(RIGHT_ARROW)){
-
-  quadrado.position.x=quadrado.position.x+2;
+background("blue");
+quadrado.shapeColor="black"
 }
 
 
